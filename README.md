@@ -18,7 +18,22 @@ use it in you xml !!!
         app:btn_strokeColor="@color/green"
         app:btn_unpressColor="@color/white"
         app:btn_pressColor="@color/green"
-        app:btn_text_unpressColor="@color/"/>
+        app:btn_text_unpressColor="@color/green"
+        app:btn_text_pressColor="@color/white"/>
+```
+or
+
+```bash
+    <style name="CustomButtonStyle" parent="Crosswall.IOSButton">
+        <item name="btn_strokeWidth">1dp</item>
+        <item name="btn_strokeColor">@color/yellow</item>
+        <item name="btn_blur">false</item>
+        <item name="btn_cornerRadius">4dp</item>
+        <item name="btn_unpressColor">@color/gray</item>
+        <item name="btn_pressColor">@color/red</item>
+        <item name="btn_text_unpressColor">@color/white</item>
+        <item name="btn_text_pressColor">@color/white</item>
+    </style>
 ```
 
 
